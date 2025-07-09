@@ -1,0 +1,26 @@
+package entities;
+
+public class Aluno {
+	
+	public String name;
+	public double grade1;
+	public double grade2;
+	public double grade3;
+	
+	public double calculateGrade() {
+		return grade1 + grade2 + grade3;
+	}
+	
+	public void toString() {
+		if (calculateGrade() >= 60) {
+			System.out.println("FINAL GRADE = " + String.format("%.2f", calculateGrade()) + "\nPASS"); 
+		}
+		
+		else if (calculateGrade() < 60) {
+			System.out.println("FINAL GRADE = " + String.format("%.2f", calculateGrade()) + "\nFAILED\n" + "MISSING " + (60-calculateGrade()) + " POINTS");
+		}
+	}
+	
+	
+	
+}

@@ -1,0 +1,26 @@
+package entities;
+
+public class Aluno {
+	
+	public String name;
+	public double grade1;
+	public double grade2;
+	public double grade3;
+	
+	public double calculateGrade() {
+		return grade1 + grade2 + grade3;
+	}
+	
+	public String showResults() {
+		if (calculateGrade() >= 60) {
+			return "FINAL GRADE = " + aluno.calculateGrade() + "\nPASS";
+		}
+		
+		else if (calculateGrade() < 60) {
+			
+		}
+	}
+	
+	
+	
+}

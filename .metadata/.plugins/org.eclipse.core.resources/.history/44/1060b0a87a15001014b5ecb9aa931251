@@ -1,0 +1,25 @@
+package udemy;
+import java.util.Scanner;
+public class EstruturaDoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		String opcao;
+		do {
+		System.out.println("Calculadora de Celsius para Fahrenheit");
+		System.out.println("Digite a temperatura em Celsius");
+		double c = scanner.nextDouble();
+		double f = (((9*c)/5)+32);
+		System.out.printf("Temperatura %.1d°C são %.1d°F", c, f);
+		System.out.println("Deseja repetir o processo? (S/N)");
+		opcao = scanner.nextLine();
+		} while (opcao == "S");
+		
+		
+		
+		
+		scanner.close();
+	}
+
+}

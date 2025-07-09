@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<list key="findhistory">
+			<item value="accountUser"/>
+			<item value="holder"/>
+			<item value="number"/>
+			<item value="getAccountBalance"/>
+			<item value="getBalance"/>
+			<item value="getAccountOwnersName"/>
+			<item value="getAccountNumber"/>
+			<item value="accountBalance"/>
+			<item value="accountOwnersName"/>
+			<item value="accountNumber"/>
+			<item value="owner"/>
+		</list>
+		<list key="replacehistory">
+			<item value="holder"/>
+			<item value="getHolder"/>
+			<item value="getNumber"/>
+			<item value="getBalance"/>
+			<item value="number"/>
+			<item value="balance"/>
+		</list>
+	</section>
+</section>
