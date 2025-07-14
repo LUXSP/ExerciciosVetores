@@ -4,6 +4,13 @@
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.fx.ide"/>
+			<item value="org.eclipse.fx.ide/org.eclipse.fx.ide.pde.ui.osgi"/>
+			<item value="org.eclipse.fx.ide/org.eclipse.fx.ide.samples"/>
+			<item value="org.eclipse.xtend.ide.wizards"/>
+			<item value="org.eclipse.xtend.ide.wizards/org.eclipse.xtend.project.Examples"/>
+			<item value="org.eclipse.ui.Examples"/>
+			<item value="org.eclipse.ui.Examples/org.eclipse.xtend.ui.Examples"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="0"/>

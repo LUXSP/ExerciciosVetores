@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module soma_vetores {
-}
